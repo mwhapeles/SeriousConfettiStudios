@@ -1,26 +1,9 @@
-@@ -1,14 +1,16 @@
-body { display:grid; 
-@import url('chillax.css');
-
-
 body {
 
-  font-family: 'Chillax-Regular';
+  /*font-family: 'Chillax-Regular';
   display:grid; 
   justify-content:center; 
   align-content:center; 
-  height:100vh;
-  background:rgb(227, 250, 250);
-  font-family:"chillax"
-}
-h1 {
-color:navy;}
+  height:100vh;}*/
+
   background:rgb(237, 255, 254);
-
-p {font-size:20px;}
-}
-
-a {text-decoration:none;
-color:rgb(251, 130, 233);}
-img {width: 50%; 
-height: 25%;}
