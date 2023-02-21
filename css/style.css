@@ -2,11 +2,13 @@
 
 
 body {
+  height:100vh;
+  width:400vh;
   display:flex; 
   align-items:center; 
   justify-content:flex-start;
-  height:100vh;
   background: #9DBAED;
+  overflow-x: scroll;
  }
     
 
@@ -17,8 +19,12 @@ font-size: 200px;
 
 p { font-family: 'Quicksand-Regular';
 font-size: medium;
-display:flex;
-flex-direction: baseline;}
+}
+
+#bio{
+  text-align:left;
+  line-break: auto;
+}
 
 ul{
   list-style: none;

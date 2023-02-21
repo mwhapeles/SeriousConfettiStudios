@@ -21,3 +21,10 @@ Here are some ideas to get you started:
  * URL: https://www.fontshare.com/fonts/quicksand
  * © 2023 Indian Type Foundry
  *
+<!-- Citations -->
+
+* Horizontal Scrolling in Web Design: How to Do It Well
+* URL:(https://blog.hubspot.com/website/horizontal-scrolling)
+*
+* Inspiration: Patrick Heng 
+* URL:(https://patrickheng.com/)
