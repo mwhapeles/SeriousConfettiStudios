@@ -1,5 +1,6 @@
 @import url(quicksand.css);
 
+/*my styles*/
 
 body {
   height:100vh;
@@ -7,12 +8,12 @@ body {
   display:flex; 
   align-items:center; 
   justify-content:flex-start;
-  background: #9DBAED;
+  background: hsl(219, 100%, 86%);
   overflow-x: scroll;
  }
     
 
-h1 { font-family: 'Quicksand-Regular';
+body h1 { font-family: 'Quicksand-Regular';
 color:navy;
 font-size: 200px;
 }
@@ -21,10 +22,6 @@ p { font-family: 'Quicksand-Regular';
 font-size: medium;
 }
 
-#bio{
-  text-align:left;
-  line-break: auto;
-}
 
 ul{
   list-style: none;
@@ -36,5 +33,6 @@ color:#FFEEF3;
 }
 img {width: 400px; 
 height: 400px;
-padding: 0px 50px 50px 0px;}
+padding: 0px 50px 50px 0px;
+border-radius: 50% 50% 50% 50%;}
 

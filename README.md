@@ -28,3 +28,6 @@ Here are some ideas to get you started:
 *
 * Inspiration: Patrick Heng 
 * URL:(https://patrickheng.com/)
+*
+* Pico.css v1.5.7 (https://picocss.com)
+* Copyright 2019-2023 - Licensed under MIT
