@@ -14,3 +14,10 @@ Here are some ideas to get you started:
 -->
 
 <!--Font License -->
+ @license
+ *
+ * Font Family: Quicksand
+ * Designed by: Andrew Paglinawan
+ * URL: https://www.fontshare.com/fonts/quicksand
+ * © 2023 Indian Type Foundry
+ *

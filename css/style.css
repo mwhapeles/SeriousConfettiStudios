@@ -7,7 +7,9 @@ body {
   justify-content:flex-start;
   height:100vh;
   background: #9DBAED;
-}
+ }
+    
+
 h1 { font-family: 'Quicksand-Regular';
 color:navy;
 font-size: 200px;
@@ -29,3 +31,4 @@ color:#FFEEF3;
 img {width: 400px; 
 height: 400px;
 padding: 0px 50px 50px 0px;}
+
