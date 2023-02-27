@@ -4,7 +4,7 @@
 
 body {
 margin:0px;
-
+display: block;
 }
     
 svg { 
@@ -12,7 +12,7 @@ svg {
 }
 h1 { font-family: 'Quicksand-Regular';
 color:navy;
-font-size: 200px;
+font-size: 100px;
 margin: 0px 300px 0px 30px;}
 
 p { font-family: 'Quicksand-Regular';
@@ -26,16 +26,18 @@ ul{
 
 a {font-family: 'Quicksand-Light';
   text-decoration:none;
-color:#FFEEF3;
+color:darkorange;
 }
 img {width: 400px; 
 height: 400px;
 padding: 0px 50px 50px 0px;
-border-radius: 50% 50% 50% 50%;}
+border-radius: 50% 50% 50% 50%;
+margin-left: 100px;}
 
 #footertext {color:aliceblue;
   font-family: 'Quicksand-Light';
-  font-size: x-small;
+  font-size: small;
+  margin-left: 45px;
 }
 
 .foot {
