@@ -31,3 +31,6 @@ Here are some ideas to get you started:
 *
 * Pico.css v1.5.7 (https://picocss.com)
 * Copyright 2019-2023 - Licensed under MIT
+
+* CSS Grid Generator, Sarah Drasner
+* URL: (https://cssgrid-generator.netlify.app/)
