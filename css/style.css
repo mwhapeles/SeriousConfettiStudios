@@ -1,34 +1,22 @@
 @import url(quicksand.css);
 
-/* Light-blue Light scheme (Default) */
-/* Can be forced with data-theme="light" */
-[data-theme="light"],
-:root:not([data-theme="dark"]) {
-  --primary: #039be5;
-  --primary-hover: #0288d1;
-  --primary-focus: rgba(3, 155, 229, 0.125);
-  --primary-inverse: #3720b9;
-}
 
 
 
 /*my styles*/
 
+body{
+  margin:0;
+  display:grid;
+  } 
+  
 
-body  {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 15px;
-    grid-row-gap: 15px;
-    } 
-
-
-svg { 
+svg { display:grid;
   margin: -100px 0px 0px -300px;
 }
 
-h1 { font-family: 'Quicksand-Regular';
+h1 { display:grid;
+  font-family: 'Quicksand-Regular';
 color:navy;
 font-size: 100px;}
 
@@ -37,16 +25,23 @@ font-size: medium;
 }
 
 
-li {
+li {  display:flex; 
+  align-items:center; 
+  justify-content:flex-start;
   list-style: none;
 }
 
-ul{  display:flex; 
- align-content: space-between;
+ul{
+  display:flex; 
+  align-items:center; 
+  justify-content:flex-start;
 
 }
 
-a {font-family: 'Quicksand-Regular';
+a {  display:flex; 
+  align-items:center; 
+  justify-content:flex-start;
+  font-family: 'Quicksand-Regular';
   font-size:2em;
   text-decoration:none;
 color:darkorange;
@@ -55,22 +50,43 @@ img {width: 400px;
 height: 400px;
 padding: 0px 50px 50px 0px;
 border-radius: 50% 50% 50% 50%;
-margin-left: 100px;}
-
-.foot {
-  display:flex;
-  flex-direction:flex-end;
-  color:aliceblue;
-  font-family: 'Quicksand-Light';
-  font-size: small;
 }
 
+
+
 footer {
-  display:flex;
-  flex-direction:flex-end;
+  display:grid;
   margin:0;
-  height: 7em;
 background-color: cadetblue;
+font-family: 'Quicksand-Light';
 
   }
 
+
+.parent {
+  display: grid;
+  grid-template-columns: .25fr 2fr .5fr 2fr .25fr;
+  grid-template-rows: 2fr 1fr 3fr 1fr 1.5fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  grid-template-areas: 
+  "div2 div2 div2 div4 . "
+  ". div7 div7  div8 div8"
+  ". div12 div14 div14 ."
+  ". . . div21 div21"
+  "div21 div21 div21 div21 div21";
+  }
+  
+
+  .div2 { grid-area: 1 / 2 / 2 / 3; 
+  grid-area:'div2'}
+  .div4 { grid-area: 1 / 4 / 2 / 5;
+  grid-area: 'div4'; }
+  .div7 { grid-area: 2 / 3 / 3 / 4; 
+  grid-area:'div7';}
+  .div12 { grid-area: 3 / 2 / 4 / 3;
+    grid-area:'div12'; }
+  .div14 { grid-area: 3 / 4 / 4 / 5;
+    grid-area:'div14'; }
+  .div21 { grid-area: 5 / 1 / 6 / 2;
+    grid-area:'div21'; }
