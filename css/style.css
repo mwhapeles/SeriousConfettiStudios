@@ -5,17 +5,46 @@
 
 /*my styles*/
 
-body{
+body{display: flex;
   margin:0;
-  display:grid;
+background-image: url(background.png) ;
   } 
-  
-
-svg { display:grid;
-  margin: -100px 0px 0px -300px;
+ 
+.name{
+  display:flex;
+  align-self:center;
 }
 
-h1 { display:grid;
+.navandhead {
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+.imageandintro{
+  display:flex;
+align-self:flex-start;
+  flex-direction:row;
+}
+.body{
+  display:flex;
+  flex-direction:column;
+  align-content:center;
+}
+
+  header {
+
+  }
+  
+  nav{
+    
+  }
+
+svg{ 
+  margin:0;
+}
+
+
+h1 { 
   font-family: 'Quicksand-Regular';
 color:navy;
 font-size: 100px;}
@@ -25,22 +54,15 @@ font-size: medium;
 }
 
 
-li {  display:flex; 
-  align-items:center; 
-  justify-content:flex-start;
+li {
   list-style: none;
 }
 
 ul{
-  display:flex; 
-  align-items:center; 
-  justify-content:flex-start;
 
 }
 
-a {  display:flex; 
-  align-items:center; 
-  justify-content:flex-start;
+a {  
   font-family: 'Quicksand-Regular';
   font-size:2em;
   text-decoration:none;
@@ -55,38 +77,56 @@ border-radius: 50% 50% 50% 50%;
 
 
 footer {
-  display:grid;
   margin:0;
 background-color: cadetblue;
 font-family: 'Quicksand-Light';
-
+color: aliceblue;
   }
 
 
-.parent {
-  display: grid;
-  grid-template-columns: .25fr 2fr .5fr 2fr .25fr;
-  grid-template-rows: 2fr 1fr 3fr 1fr 1.5fr;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-  grid-template-areas: 
-  "div2 div2 div2 div4 . "
-  ". div7 div7  div8 div8"
-  ". div12 div14 div14 ."
-  ". . . div21 div21"
-  "div21 div21 div21 div21 div21";
-  }
-  
 
-  .div2 { grid-area: 1 / 2 / 2 / 3; 
-  grid-area:'div2'}
-  .div4 { grid-area: 1 / 4 / 2 / 5;
-  grid-area: 'div4'; }
-  .div7 { grid-area: 2 / 3 / 3 / 4; 
-  grid-area:'div7';}
-  .div12 { grid-area: 3 / 2 / 4 / 3;
-    grid-area:'div12'; }
-  .div14 { grid-area: 3 / 4 / 4 / 5;
-    grid-area:'div14'; }
-  .div21 { grid-area: 5 / 1 / 6 / 2;
-    grid-area:'div21'; }
+    /* for the pen */
+html, body {
+  margin: 0;
+  min-height: 100%;
+  background-color: #f2f2f2;
+}
+
+/* waves */
+.ocean {
+  height: 60px; /* change the height of the waves here */
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow-x: hidden;
+}
+
+.wave {
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 88.7'%3E%3Cpath d='M800 56.9c-155.5 0-204.9-50-405.5-49.9-200 0-250 49.9-394.5 49.9v31.8h800v-.2-31.6z' fill='%23003F7C'/%3E%3C/svg%3E");
+  position: absolute;
+  width: 200%;
+  height: 100%;
+  animation: wave 10s -3s linear infinite;
+  transform: translate3d(0, 0, 0);
+  opacity: 0.8;
+}
+
+.wave:nth-of-type(2) {
+  bottom: 0;
+  animation: wave 18s linear reverse infinite;
+  opacity: 0.5;
+}
+
+.wave:nth-of-type(3) {
+  bottom: 0;
+  animation: wave 20s -1s linear infinite;
+  opacity: 0.5;
+}
+
+@keyframes wave {
+    0% {transform: translateX(0);}
+    50% {transform: translateX(-25%);}
+    100% {transform: translateX(-50%);}
+}

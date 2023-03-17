@@ -34,3 +34,6 @@ Here are some ideas to get you started:
 
 * CSS Grid Generator, Sarah Drasner
 * URL: (https://cssgrid-generator.netlify.app/)
+
+* CSS Waves, P.Rachel 
+* URL: (https://codepen.io/Prachl)
