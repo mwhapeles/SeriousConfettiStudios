@@ -7,24 +7,26 @@
 
 body{
   margin:auto;
+ 
   } 
  
 
-  .containerall{
-    margin-top: 2%;
+  .containerall main {
+  
     display:flex;
     justify-content:center;
     flex-wrap:wrap;
+    max-width: 100%;
   }
 
 .sos {margin: auto;
-width: 47.0268348%;
+max-width: 100%;
 }
 
 .namecontainer{
-  margin: auto;
+  margin: 0%;
 align-content: flex-start;
-line-height:25%;
+line-height:4em;
 
 
 }
@@ -33,6 +35,8 @@ line-height:25%;
   margin: auto;
   display:flex;
   align-content: flex-start;
+  min-width: 70%;
+  max-width: 100%;
 }
 
 /*.linkscontainer{
@@ -92,6 +96,7 @@ display:flex;
 align-items:center;
 font-size: 1em;
 min-width:55%;
+min-height:55%;
 }
 
 
@@ -116,13 +121,14 @@ a {
   font-size:1.5em;
   text-decoration:none;
 color:darkorange;
+width: 45.404%;
 }
 img {
   width: 400px; 
 height: 400px;
-padding: 0px 50px 50px 0px;
 border-radius: 50% 50% 50% 50%;
-min-width: 80%;
+max-width: 100%;
+display: block;
 }
 
 
@@ -186,75 +192,3 @@ html, body {
 }
 
 
-/* Responsive Sizing*/
-#wrapper {width:95%;  margin: 0 auto; }
-
-#header {width:100%; }
-
-#content {width:100%; }
-
-
-
-#footer {min-width:200%; }
-
-/* Small devices (landscape phones, 576px and up)*/
-
-@media (min-width: 576px) {
-  #wrapper {width:95%;  margin: 0 auto; }
-
-#header {width:100%; }
-
-#content {width:47.0268348%; }
-
-#footer {min-width:200%; }
-
-
-.containerall{min-width: 47.0268348%;}
-
-}
-/*Medium devices (tablets, 768px and up)*/
-
-@media (min-width: 768px) {
-  #wrapper {width:95%;  margin: 0 auto; }
-
-#header {width:100%; }
-
-#content {width:100%; }
-
-
-#footer {min-width:200%;  }
-}
-
-
-
-/*Large devices (desktops, 992px and up)*/
-
-@media (min-width: 992px) { 
-  #wrapper {width:95%;  margin: 0 auto; }
-
-#header {width:100%; }
-
-#content {width:100%; }
-
-
-
-#footer {min-width:200%;  }
-
-}
-
-/* Extra large devices (large desktops, 1200px and up)*/
-
-@media (min-width: 1200px) {
-  #wrapper {width:95%;  margin: 0 auto; }
-
-#header {width:100%; }
-
-#content {width:100%; }
-
-#sidebar {width:100%; }
-
-#footer {min-width:200%;  }
-
-#wrapper {width:90%;  margin: 0 auto; }
-
-}
