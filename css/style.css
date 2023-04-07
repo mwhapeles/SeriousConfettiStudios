@@ -91,6 +91,7 @@ font-size: medium;
 display:flex;
 align-items:center;
 font-size: 1em;
+min-width:55%;
 }
 
 
@@ -121,6 +122,7 @@ img {
 height: 400px;
 padding: 0px 50px 50px 0px;
 border-radius: 50% 50% 50% 50%;
+min-width: 80%;
 }
 
 
@@ -181,4 +183,78 @@ html, body {
     0% {transform: translateX(0);}
     50% {transform: translateX(-25%);}
     100% {transform: translateX(-50%);}
+}
+
+
+/* Responsive Sizing*/
+#wrapper {width:95%;  margin: 0 auto; }
+
+#header {width:100%; }
+
+#content {width:100%; }
+
+
+
+#footer {min-width:200%; }
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {
+  #wrapper {width:95%;  margin: 0 auto; }
+
+#header {width:100%; }
+
+#content {width:47.0268348%; }
+
+#footer {min-width:200%; }
+
+
+.containerall{min-width: 47.0268348%;}
+
+}
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {
+  #wrapper {width:95%;  margin: 0 auto; }
+
+#header {width:100%; }
+
+#content {width:100%; }
+
+
+#footer {min-width:200%;  }
+}
+
+
+
+/*Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) { 
+  #wrapper {width:95%;  margin: 0 auto; }
+
+#header {width:100%; }
+
+#content {width:100%; }
+
+
+
+#footer {min-width:200%;  }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {
+  #wrapper {width:95%;  margin: 0 auto; }
+
+#header {width:100%; }
+
+#content {width:100%; }
+
+#sidebar {width:100%; }
+
+#footer {min-width:200%;  }
+
+#wrapper {width:90%;  margin: 0 auto; }
+
 }
