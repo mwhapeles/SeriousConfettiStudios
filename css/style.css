@@ -50,6 +50,7 @@ h1{
 
 a{
   text-decoration: none;
+
   
 }
 
@@ -67,21 +68,26 @@ background: none;
   border: none;
  font-family: 'Quicksand-SemiBold';
   font-size: 1em;
-  color: #007AA3;
+  color: #ffffff;
   border-radius: 5px;
   padding: 10px 20px;
   margin: 10px;
   box-shadow: 0px 5px 10px rgba(196, 208, 252, 0.388); 
 }
 
-button:hover{
+.buttons:hover{
   background-color: #007AA3;
-  color: white;
+  color:  #ffffff;
   box-shadow: 0px 5px 10px rgba(196, 208, 252, 0.388);
   transform: scale(1.1); 
   transition: 0.5s;
+  cursor: pointer ;
 }
-
+a,.buttons:hover{
+  color: #ffffff;
+  background-color: #007AA3;
+  transition: 0.5s;
+}
 
 
 
