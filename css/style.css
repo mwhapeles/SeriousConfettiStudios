@@ -6,10 +6,67 @@
 /*my styles*/
 
 body{
-  margin:auto;
+  margin-left:10%;
+  margin-right:10%;
+ } 
  
-  } 
+nav{
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+h3{
+
+font-family: "Quicksand-Regular";
+
+}
+
+.buttons{
+
+  display: flex;
+  align-content: space-between;
  
+
+}
+
+img{
+  min-width:30%;
+  max-width: 50%;
+  border-radius: 50% 50% 50% 50%;
+
+}
+
+p {
+  font-family: 'Quicksand-Regular';
+}
+
+h1{
+  font-family: 'Quicksand-Bold';
+  font-size: 3em;
+  color:#007AA3;
+}
+
+a{
+  text-decoration: none;
+
+}
+
+ul{
+  display:flex;
+  flex-direction: row;
+  align-content: space-around;
+  list-style: none;
+
+}
+
+
+
+
+
+
+
+
 
 
 
