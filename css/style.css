@@ -13,6 +13,7 @@ body{
 nav{
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 
 
@@ -28,7 +29,7 @@ font-family: "Quicksand-Regular";
   align-content: space-between;
   justify-content: space-between;
   flex-direction: row;
-
+  
 }
 
 img{
@@ -50,7 +51,7 @@ h1{
 
 a{
   text-decoration: none;
-
+color:#007AA3;
   
 }
 
@@ -68,30 +69,107 @@ background: none;
   border: none;
  font-family: 'Quicksand-SemiBold';
   font-size: 1em;
-  color: #ffffff;
   border-radius: 5px;
   padding: 10px 20px;
   margin: 10px;
   box-shadow: 0px 5px 10px rgba(196, 208, 252, 0.388); 
 }
-
 .buttons:hover{
   background-color: #007AA3;
-  color:  #ffffff;
+
   box-shadow: 0px 5px 10px rgba(196, 208, 252, 0.388);
   transform: scale(1.1); 
   transition: 0.5s;
   cursor: pointer ;
 }
-a,.buttons:hover{
-  color: #ffffff;
-  background-color: #007AA3;
-  transition: 0.5s;
+
+
+
+
+
+/* Media Query for Mobile */
+@media only screen and (max-width: 56em){ 
+  
+  
+  body{
+  margin-left:20%;
+  margin-right:20%;
+ } 
+ 
+nav{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 
+h3{
 
+font-family: "Quicksand-Regular";
 
+}
+
+.buttons{
+
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+  flex-direction: row;
+  
+}
+
+img{
+  min-width:30%;
+  max-width: 50%;
+  border-radius: 50% 50% 50% 50%;
+
+}
+
+p {
+  font-family: 'Quicksand-Regular';
+}
+
+h1{
+  font-family: 'Quicksand-Bold';
+  font-size: 3em;
+  color:#007AA3;
+}
+
+a{
+  text-decoration: none;
+color:#007AA3;
+  
+}
+
+ul{
+  display:flex;
+
+  flex-direction: row;
+  align-content: space-around;
+  list-style: none;
+
+}
+
+button {
+background: none;
+  border: none;
+ font-family: 'Quicksand-SemiBold';
+  font-size: 1em;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px;
+  box-shadow: 0px 5px 10px rgba(196, 208, 252, 0.388); 
+}
+.buttons:hover{
+  background-color: #007AA3;
+
+  box-shadow: 0px 5px 10px rgba(196, 208, 252, 0.388);
+  transform: scale(1.1); 
+  transition: 0.5s;
+  cursor: pointer ;
+}
+
+}
 
 
 /* waves
