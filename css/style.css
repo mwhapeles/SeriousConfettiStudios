@@ -6,21 +6,22 @@
 /*my styles*/
 
 body{
-  margin-left:10%;
-  margin-right:10%;
+ margin:0;
  } 
  
+
+
 nav{
   display: flex;
   justify-content: flex-end;
   align-items: center;
+
+margin-right: 5%;
 }
 
-
-h3{
-
-font-family: "Quicksand-Regular";
-
+.head{
+  min-width: 100%;
+  background-color:#2ca0a4;
 }
 
 .buttons{
@@ -29,29 +30,46 @@ font-family: "Quicksand-Regular";
   align-content: space-between;
   justify-content: space-between;
   flex-direction: row;
+}
+
+main{
   
+  margin-top: 20%;
+  margin-bottom: 10%;
 }
 
-img{
-  min-width:30%;
-  max-width: 50%;
-  border-radius: 50% 50% 50% 50%;
-
+h3{
+  margin-left: 20%;
+font-family: "Quicksand-Regular";
+margin-top: 0;
 }
+
+
+  
+
+.bio{
+  max-width: 30%;
+  margin-left: 20%;
+}
+
+
 
 p {
   font-family: 'Quicksand-Regular';
+
 }
 
 h1{
   font-family: 'Quicksand-Bold';
   font-size: 3em;
-  color:#007AA3;
+  color:#2ca0a4;
+  margin: 0;
+  margin-left: 20%;
 }
 
 a{
   text-decoration: none;
-color:#007AA3;
+color:#ffffff;
   
 }
 
@@ -65,19 +83,19 @@ ul{
 }
 
 button {
-background: none;
+background-color: rgba(35, 211, 167, 0.852);
   border: none;
  font-family: 'Quicksand-SemiBold';
   font-size: 1em;
   border-radius: 5px;
   padding: 10px 20px;
   margin: 10px;
-  box-shadow: 0px 5px 10px rgba(196, 208, 252, 0.388); 
+  box-shadow: 0px 5px 10px #209093; 
 }
 .buttons:hover{
   background-color: #007AA3;
 
-  box-shadow: 0px 5px 10px rgba(196, 208, 252, 0.388);
+  box-shadow: 0px 5px 10px rgba(9, 28, 96, 0.388);
   transform: scale(1.1); 
   transition: 0.5s;
   cursor: pointer ;
@@ -118,12 +136,12 @@ font-family: "Quicksand-Regular";
   
 }
 
-img{
-  min-width:30%;
-  max-width: 50%;
-  border-radius: 50% 50% 50% 50%;
 
+.bio{
+  max-width: 60%;
 }
+
+
 
 p {
   font-family: 'Quicksand-Regular';
