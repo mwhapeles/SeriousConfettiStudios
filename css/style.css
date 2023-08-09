@@ -21,7 +21,7 @@ margin-right: 5%;
 
 .head{
   min-width: 100%;
-  background-color:#2ca0a4;
+  background-color:#4db9bc;
 }
 
 .buttons{
@@ -120,6 +120,10 @@ nav{
   align-items: center;
 }
 
+.head{
+  min-width: 100%;
+  background-color:#4db9bc;
+}
 
 h3{
 
