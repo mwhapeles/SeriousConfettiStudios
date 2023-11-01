@@ -37,3 +37,6 @@ Here are some ideas to get you started:
 
 * CSS Waves, P.Rachel 
 * URL: (https://codepen.io/Prachl)
+
+* Css Logo spin, Uyen Lawless
+* URL: (https://www.uyenlawless.design/)

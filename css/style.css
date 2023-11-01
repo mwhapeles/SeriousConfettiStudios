@@ -17,27 +17,36 @@ nav{
   align-items: center;
 
 margin-right: 5%;
+
 }
 
 svg{ 
- min-width: 30%;
- min-height: 20%;
-
+ max-width: 8%;
+ max-height: 8%;
+ position: absolute;
+margin-right: 80%;
+  width: 100vw;
+  height: 100vh;
+  animation: rotation 10s infinite ease-in-out;
 }
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(179deg);
+  }
+}
+
+
 
 .head{
   min-width: 100%;
-  background-color:#D8EBF4;
+  background-color:#fef6eb81;
 }
 
 
-.buttons{
-
-  display: flex;
-  align-content: space-between;
-  justify-content: space-between;
-  flex-direction: row;
-}
 
 main{
   
@@ -48,7 +57,7 @@ main{
 .brandPromise {
   font-family: 'Quicksand-Bold';
   font-size: 1.5em;
-  color:#2ca0a4;
+  color:#518778;
   margin: 0;
   margin-left: 10%;
  
@@ -58,7 +67,7 @@ main{
 h2{
   font-family: 'Quicksand-light';
   font-size: 1.5em;
-  color:#2ca0a4;
+  color:#518778;
   margin: 5%;
   margin-left: 10%;
  
@@ -74,7 +83,7 @@ margin-top: 0;
   
 
 .bio{
-  max-width: 30%;
+  max-width: 20%;
   margin-left: 30%;
   padding-right: 50%;
 }
@@ -89,38 +98,32 @@ p {
 h1{
   font-family: 'Quicksand-Bold';
   font-size: 3em;
-  color:#2ca0a4;
+  color:#518778;
   margin: 0;
   margin-left: 20%;
 }
 
 a{
+  font-family: 'Quicksand-Regular';
   text-decoration: none;
-color:#ffffff;
+color:#2C2B30;
+display: flex;
+  align-content: space-around;
+  justify-content: left-align;
+  flex-direction: row;
   
 }
 
 ul{
   display:flex;
-
   flex-direction: row;
   align-content: space-around;
   list-style: none;
 
 }
 
-button {
-  background-image: linear-gradient(#AADEB9, #82A3E2);
-  border: none;
- font-family: 'Quicksand-SemiBold';
-  font-size: 1em;
-  border-radius: 55px;
-  padding: 10px 20px;
-  margin: 10px;
-  box-shadow: 0px 5px 10px #35376F 14%; 
-}
-.buttons:hover{
-  background-image: linear-gradient(#89B8BF, #276E72);
+a:hover{
+  color: linear-gradient(#89B8BF, #276E72);
   transform: scale(1.02); 
   transition: 0.2s ease-in-out;
   cursor: pointer ;
