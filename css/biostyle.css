@@ -22,3 +22,25 @@ height: /*227px*/ 23.11%;
 flex-shrink: 0;
 
 }
+svg{ 
+    margin-top:7%;
+   max-width: 8%;
+   max-height: 8%;
+   position: absolute;
+  margin-right: 80%;
+    width: 100vw;
+    height: 100vh;
+    animation: rotation 10s infinite ease-in-out;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  
+  
+  }
+  
