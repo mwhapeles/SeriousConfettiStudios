@@ -1,0 +1,19 @@
+@import url(asap.css);
+
+body{
+    margin:0; 
+    background-color:#403F45;
+}
+
+#bio{
+
+    color: #FFF;
+
+    /* Body */
+    font-family: 'Asap';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125.487%; /* 45.175px */
+
+}

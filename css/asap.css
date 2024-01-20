@@ -1,0 +1,154 @@
+/**
+ * @license
+ *
+ * Font Family: Asap
+ * Designed by: Omnibus-Type
+ * URL: https://www.fontshare.com/fonts/asap
+ * © 2024 Indian Type Foundry
+ *
+ * Font Styles:
+ * Asap Variable(Variable font)
+ * Asap Variable Italic(Variable font)
+ * Asap Regular
+ * Asap Italic
+ * Asap Medium
+ * Asap Medium Italic
+ * Asap Semi Bold
+ * Asap Semi Bold Italic
+ * Asap Bold
+ * Asap Bold Italic
+ *
+*/
+
+
+/**
+* This is a variable font
+* You can controll variable axes as shown below:
+* font-variation-settings: 'wght' 400.0;
+*
+* available axes:
+
+* 'wght' (range from 400.0 to 700.0)
+
+*/
+
+@font-face {
+  font-family: 'Asap-Variable';
+  src: url('../fonts/Asap-Variable.woff2') format('woff2'),
+       url('../fonts/Asap-Variable.woff') format('woff'),
+       url('../fonts/Asap-Variable.ttf') format('truetype');
+       font-weight: 400 700;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+/**
+* This is a variable font
+* You can controll variable axes as shown below:
+* font-variation-settings: 'wght' 400.0;
+*
+* available axes:
+
+* 'wght' (range from 400.0 to 700.0)
+
+*/
+
+@font-face {
+  font-family: 'Asap-VariableItalic';
+  src: url('../fonts/Asap-VariableItalic.woff2') format('woff2'),
+       url('../fonts/Asap-VariableItalic.woff') format('woff'),
+       url('../fonts/Asap-VariableItalic.ttf') format('truetype');
+       font-weight: 400 700;
+       font-display: swap;
+       font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Asap-Regular';
+  src: url('../fonts/Asap-Regular.woff2') format('woff2'),
+       url('../fonts/Asap-Regular.woff') format('woff'),
+       url('../fonts/Asap-Regular.ttf') format('truetype');
+       font-weight: 400;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Asap-Italic';
+  src: url('../fonts/Asap-Italic.woff2') format('woff2'),
+       url('../fonts/Asap-Italic.woff') format('woff'),
+       url('../fonts/Asap-Italic.ttf') format('truetype');
+       font-weight: 400;
+       font-display: swap;
+       font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Asap-Medium';
+  src: url('../fonts/Asap-Medium.woff2') format('woff2'),
+       url('../fonts/Asap-Medium.woff') format('woff'),
+       url('../fonts/Asap-Medium.ttf') format('truetype');
+       font-weight: 500;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Asap-MediumItalic';
+  src: url('../fonts/Asap-MediumItalic.woff2') format('woff2'),
+       url('../fonts/Asap-MediumItalic.woff') format('woff'),
+       url('../fonts/Asap-MediumItalic.ttf') format('truetype');
+       font-weight: 500;
+       font-display: swap;
+       font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Asap-SemiBold';
+  src: url('../fonts/Asap-SemiBold.woff2') format('woff2'),
+       url('../fonts/Asap-SemiBold.woff') format('woff'),
+       url('../fonts/Asap-SemiBold.ttf') format('truetype');
+       font-weight: 600;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Asap-SemiBoldItalic';
+  src: url('../fonts/Asap-SemiBoldItalic.woff2') format('woff2'),
+       url('../fonts/Asap-SemiBoldItalic.woff') format('woff'),
+       url('../fonts/Asap-SemiBoldItalic.ttf') format('truetype');
+       font-weight: 600;
+       font-display: swap;
+       font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Asap-Bold';
+  src: url('../fonts/Asap-Bold.woff2') format('woff2'),
+       url('../fonts/Asap-Bold.woff') format('woff'),
+       url('../fonts/Asap-Bold.ttf') format('truetype');
+       font-weight: 700;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Asap-BoldItalic';
+  src: url('../fonts/Asap-BoldItalic.woff2') format('woff2'),
+       url('../fonts/Asap-BoldItalic.woff') format('woff'),
+       url('../fonts/Asap-BoldItalic.ttf') format('truetype');
+       font-weight: 700;
+       font-display: swap;
+       font-style: italic;
+}
+
