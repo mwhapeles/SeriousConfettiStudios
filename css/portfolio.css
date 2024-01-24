@@ -1,0 +1,91 @@
+@import url(asap.css);
+@import url(quicksand.css);
+
+body{
+ margin:0;        
+ background-color:#403F45;
+} 
+nav{
+    height: 70%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 5%;
+   }
+
+
+svg{ 
+    margin-top:15%;
+   max-width: 8%;
+   max-height: 8%;
+   position: absolute;
+  margin-right: 80%;
+    width: 100vw;
+    height: 100vh;
+    animation: rotation 10s infinite ease-in-out;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  
+  
+  }
+
+
+.scrollInfo{
+    width: 50%;
+   margin-left: 15%;
+   margin-top: 25%;
+
+}
+
+p{    
+flex-shrink: 0;
+color: #FFF;
+/* Body */
+font-family: 'Asap-regular';
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 125.487%; /* 45.175px */
+}
+
+.rainbow{
+background: linear-gradient(90deg, #98CCBE 27.58%, #D2D87E 36.17%, #FD696F 47.73%, #FBB16E 56.31%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+/* Body */
+font-family:  'Asap-regular';
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 125.487%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Horizontal Scroll 
+.scroll{ 
+    white-space: nowrap;
+  }
+*/
