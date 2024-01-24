@@ -99,6 +99,8 @@ color:white;
 
 button{
 background-image: url('ButtonStatic.svg');
+height: 30%;
+width:20%;
 
 }
 
