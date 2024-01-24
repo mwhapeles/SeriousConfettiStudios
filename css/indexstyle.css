@@ -31,6 +31,10 @@ svg{
 margin-right: 80%;
   width: 100vw;
   height: 100vh;
+  
+}
+
+#logo{
   animation: rotation 10s infinite ease-in-out;
 }
 
