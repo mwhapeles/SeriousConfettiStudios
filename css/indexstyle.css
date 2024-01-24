@@ -1,5 +1,5 @@
 @import url(quicksand.css);
-
+@import url(asap.css);
 
 
 
@@ -24,7 +24,7 @@ margin-right: 5%;
 }
 
 svg{ 
-  margin-top:7%;
+  margin-top:15%;
  max-width: 8%;
  max-height: 8%;
  position: absolute;
@@ -78,7 +78,7 @@ main{
   -webkit-text-fill-color: transparent;
   
   /* Sub1 */
-  font-family: Quicksand-Variable;
+  font-family: 'Quicksand-Variable';
   font-size: 64px;
   font-style: italic;
   font-weight: 600;
@@ -99,43 +99,45 @@ h3{
   margin-left: 20%;
 font-family: "Quicksand-Regular";
 margin-top: 0;
-}L
+}
 
-
-  
 
 
 a{
-  font-family: 'Quicksand-Regular';
   text-decoration: none;
-color:#2C2B30;
-display: flex;
-  align-content: space-around;
-  justify-content: left-align;
-  flex-direction: row;
-  
+  color:#ffffff;
 }
 
 ul{
   display:flex;
   flex-direction: row;
-  align-content: space-around;
   list-style: none;
 
 }
 
+li{
+  font-family: "Asap-Regular";
+  margin:auto;
+  margin-top:30%;
+  font-size: 30px;
+
+
+}
+
+
 a:hover{
-  color: linear-gradient(#89B8BF, #276E72);
-  transform: scale(1.02); 
-  transition: 0.2s ease-in-out;
-  cursor: pointer ;
+  background: linear-gradient(90deg, #98CCBE 24.7%, #D2D87E 32.09%, #FD716F 38.03%, #FD696F 38.42%, #FBB16E 46.29%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 }
 
 
 
 
 
-/* Media Query for Mobile */
+/* Media Query for Mobile 
 @media only screen and (max-width: 56em){ 
   
   
@@ -181,10 +183,6 @@ margin-top: 0;
 
   
 
-.bio{
-  max-width: 30%;
-  margin-left: 20%;
-}
 
 
 
@@ -201,21 +199,33 @@ h1{
   margin-left: 20%;
 }
 
+
 a{
   text-decoration: none;
-color:#ffffff;
-  
+  color:white;
 }
 
 ul{
   display:flex;
-
   flex-direction: row;
-  align-content: space-around;
   list-style: none;
+}
+
+li{
+  font-family: "Asap-Regular";
+  margin:auto;
+
+
 
 }
 
+
+a:hover{
+  color: linear-gradient(#89B8BF, #276E72);
+  transform: scale(1.02); 
+  transition: 0.2s ease-in-out;
+  cursor: pointer ;
+}
 button {
 background-color: rgba(35, 211, 167, 0.852);
   border: none;
