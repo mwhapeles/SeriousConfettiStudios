@@ -98,13 +98,16 @@ svg{
  }
 
  a:hover{
-  background: linear-gradient(90deg, #98CCBE 24.7%, #D2D87E 32.09%, #FD716F 38.03%, #FD696F 38.42%, #FBB16E 46.29%);
-  background-clip: text;
+  background: linear-gradient(90deg, #98CCBE 25%, #D2D87E 50%, #FD716F 75%, #FBB16E 100%);  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
  }
+ li:hover{
 
+  transform: scale(1.1); 
+  transition: 0.5s;
+}
 .contactLink{
 
 margin-left: 5%;
@@ -127,10 +130,11 @@ ul{
 }
 
 li{
-  font-family: "Asap-Regular";
+  font-family: "Asap-SemiBold";
   margin:auto;
   margin-top:10%;
   font-size: 30px;
+  position:sticky;
 
 
 }
