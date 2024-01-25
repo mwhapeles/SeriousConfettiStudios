@@ -97,20 +97,18 @@ color:white;
 }
 
 
-button{
-background-image: url('ButtonStatic.svg');
-height: 300px;
-width:200px;
-color: white;
- font-size: 40px;
- font-family: 'Asap';
- font-style: italic;
- font-weight: 600;
- word-wrap: break-word
+.buttonA{
+
+  width: 408px; height: 98px; left: 0px; top: 0px; position: absolute; background: #403F45; border-radius: 29px; border: 4px white solid;
 }
 
 
 
+.buttonB{
+  width: 408px; height: 108px; left: 0px; top: 0px; position: absolute;
+  background: linear-gradient(90deg, #98CCBE 0%, #D2D87E 31%, #FD696F 63%, #FBB16E 99%); 
+  border-radius: 29px;
+}
 
 
 
