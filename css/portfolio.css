@@ -98,10 +98,11 @@ color:white;
 
 
 button{
-background-image: url('/Users/morganwhapeles/Documents/GitHub/morgsdoesdesigns/assests/ButtonStatic.svg');
+background-image: url('assests/ButtonStatic.svg');
 height: 300px;
 width:200px;
-
+font-family: 'Asap-Regular';
+font-size: 40px;
 }
 
 
