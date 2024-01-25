@@ -101,8 +101,12 @@ button{
 background-image: url('ButtonStatic.svg');
 height: 300px;
 width:200px;
-font-family: 'Asap-Regular';
-font-size: 40px;
+color: white;
+ font-size: 40px;
+ font-family: 'Asap';
+ font-style: italic;
+ font-weight: 600;
+ word-wrap: break-word
 }
 
 
