@@ -99,19 +99,12 @@ color:white;
 
 .button{
 
-  width: 408px; height: 98px; left: 0px; top: 0px; 
-  position: absolute; background: #403F45; border-radius: 29px; border: 4px white solid;
+  width: 40%; height: 10%;  
+  background: #403F45; border-radius: 29px; border: 4px white solid;
   filter: drop-shadow(linear-gradient(90deg, #98CCBE 0%, #D2D87E 31%, #FD696F 63%, #FBB16E 99%));
+  color: #FFF;
+  font-family: 'Asap-VariableItalic';
 }
-
-
-
-.buttonB{
-  width: 408px; height: 108px; left: 0px; top: 0px; position: absolute;
-  background: linear-gradient(90deg, #98CCBE 0%, #D2D87E 31%, #FD696F 63%, #FBB16E 99%); 
-
-}
-
 
 
  /*Horizontal Scroll */
