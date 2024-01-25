@@ -99,9 +99,12 @@ color:white;
 
 .button{
 
-  width: 40%; height: 10%;  
-  background: #403F45; border-radius: 29px; border: 4px white solid;
-  filter: drop-shadow(linear-gradient(90deg, #98CCBE 0%, #D2D87E 31%, #FD696F 63%, #FBB16E 99%));
+  width: 20%; 
+  height: 30%;  
+  background: #403F45; 
+  border-radius: 29px; 
+  border: 4px white solid;
+  filter: drop-shadow((3px 3px 5px linear-gradient(90deg, #98CCBE 25%, #D2D87E 50%, #FD696F 75%, #FBB16E 100%)));
   color: #FFF;
   font-family: 'Asap-VariableItalic';
 }
