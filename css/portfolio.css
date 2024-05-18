@@ -4,6 +4,7 @@
 body{
  margin:0;        
  background-color:#403F45;
+ overflow-x: scroll;
 } 
 nav{
     height: 70%;
@@ -111,9 +112,11 @@ color:white;
   font-family: 'Asap-VariableItalic';
 }
 
+.works{
 
- /*Horizontal Scroll */
- /*.scroll{
-    overflow:none
-    white-space: nowrap;
-  }*/
+  display:flex;
+  max-height:30%;
+  color:red;
+
+
+}
