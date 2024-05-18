@@ -27,6 +27,8 @@ svg{
   margin-top:15%;
  max-width: 8%;
  max-height: 8%;
+ min-height: 6%;
+ min-width: 6%;
  position: absolute;
 margin-right: 80%;
   width: 100vw;
@@ -61,7 +63,7 @@ header{
 
 main{
   
-  margin-top: 30%;
+  margin-top: 27%;
   margin-bottom: 0%;
 }
 
