@@ -6,7 +6,11 @@ body{
  background-color:#403F45;
  overflow-x: scroll;
 } 
-nav{
+
+main{
+  overflow-x: scroll;
+}
+nav a{
     height: 70%;
     display: flex;
     justify-content: flex-end;
@@ -50,7 +54,7 @@ nav{
 
 p{    
 flex-shrink: 0;
-color: #FFF;
+color: #ffffff;
 /* Body */
 font-family: 'Asap-regular';
 font-size: 30px;
@@ -96,27 +100,38 @@ font-family:  'Asap-regular';
 font-size: 25px;
 font-style: normal;
 font-weight: 400;
-color:white;
+color:rgb(255, 255, 255);
 }
 
+.works { width: 400px;
+  background-color: #B4B8AB;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3em;
+  justify-content: space-evenly;
+  margin: 3px 30px 30px 3px;
+  transition:all 375ms ease-in-out 100ms;
+}
 
-.button{
+#pineapple{
+  background-image: url(assests/pineapple.png);
+  height: 250px; 
+  border-radius:25px 25px 0px 0px;
+  background-size: cover;
+  justify-content: center;
+background-color: rgba(40, 75, 99, 1);
+  background-blend-mode:multiply;}
 
-  width: 20%; 
-  height: 30%;  
-  background: #403F45; 
-  border-radius: 29px; 
+
+
+/*.button{
+
+  max-width: 20%; 
+  min-height: 30%;  
   border: 4px white solid;
   filter: drop-shadow((3px 3px 5px linear-gradient(90deg, #98CCBE 25%, #D2D87E 50%, #FD696F 75%, #FBB16E 100%)));
   color: #FFF;
   font-family: 'Asap-VariableItalic';
 }
-
-.works{
-
-  display:flex;
-  max-height:30%;
-  color:red;
-
-
-}
+*/
