@@ -1,0 +1,28 @@
+@import url(quicksand.css);
+@import url(asap.css);
+
+body {
+  margin: 0;
+  background-color: #403f45;
+}
+
+#email{
+    margin-top: 10%;
+    margin-left: 10%;
+    font-family: 'Quicksand-Regular';
+    font-size: 30px;
+    color: #ffffff;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover{
+    background: linear-gradient(90deg, #98CCBE 25%, #D2D87E 50%, #FD716F 75%, #FBB16E 100%);  background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+  
+  }
