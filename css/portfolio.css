@@ -64,7 +64,7 @@ line-height: 125.487%; /* 45.175px */
 }
 
 .rainbow{
-background: linear-gradient(90deg, #98CCBE 27.58%, #D2D87E 36.17%, #FD696F 47.73%, #FBB16E 56.31%);
+background: linear-gradient(90deg, #FF7C82 25%, #98AD8D 50%, #98CCC9 75%, #998CED 100%);
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
@@ -89,7 +89,6 @@ line-height: 125.487%;
 #scrollArrow{
     width:40%;
     padding-left:3%;
-
 }
 
 

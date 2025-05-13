@@ -20,7 +20,7 @@ a{
 }
 
 a:hover{
-    background: linear-gradient(90deg, #98CCBE 25%, #D2D87E 50%, #FD716F 75%, #FBB16E 100%);  background-clip: text;
+    background: linear-gradient(90deg, #FF7C82 25%, #98AD8D 50%, #98CCC9 75%, #998CED 100%);  background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   
